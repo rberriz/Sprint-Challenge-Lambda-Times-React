@@ -14,8 +14,12 @@ const Cards = props => {
 }
 
 Cards.propTypes = {
-  card: PropTypes.objectOf({
+  cards: PropTypes.arrayOf(PropTypes.shape({
+    headline: PropTypes.string,
+    tab: PropTypes.string,
+    img: PropTypes.string,
     author: PropTypes.string,
-  })}
+  }),)
+}
 
 export default Cards;
