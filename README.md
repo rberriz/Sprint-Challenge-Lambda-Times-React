@@ -34,7 +34,7 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
 ## Project Setup
-
+    
 Follow these steps to set up your project:
 
 - [ ] Create a forked copy of this project.
